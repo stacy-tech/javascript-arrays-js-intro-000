@@ -4,10 +4,10 @@ var chocolateBars = ["snickers", "hundred grand",
 function addElementToBeginningOfArray(chocolatebars, candy){
   return [candy,...chocolatebars];
 }
-  function destructivelyAddElementToBegginningOfArray(chocolateBars, candy){
-    chocolateBars.unshift(candy);
-    return chocolateBars;
-    }
+function destructivelyAddElementToBeginningOfArray( chocolatebars, candy){
+  chocolatebars.unshift(candy);
+  return chocolatebars;
+}
 function addElementToEndOfArray(chocolatebars, candy){
   return [...chocolatebars, candy];
 }
