@@ -8,10 +8,8 @@ function addElementToBeginningOfArray(chocolatebars, candy){
     chocolatebars.unshift(candy);
     return chocolatebars;
     }
-function addElementToEndOfArray( array, item){
-  var newArray = array;
-  newArray.push(item);
-  return newArray;
+function addElementToEndOfArray(chocolatebars, candy){
+  return [...chocolatebars, candy];
 }
 function destructivelyAddElementToEndOfArray( array, item){
   array.push(item);
